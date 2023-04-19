@@ -49,7 +49,6 @@ export class GifsService {
       .subscribe( ( resp ) => {
         this.resultados = resp.data;
         localStorage.setItem('resultados', JSON.stringify( this.resultados ) );
-        
       })
   
  }
